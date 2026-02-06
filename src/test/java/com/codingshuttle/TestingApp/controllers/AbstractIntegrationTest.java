@@ -11,7 +11,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 
 @AutoConfigureWebTestClient(timeout = "100000")
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-//@Import(TestContainerConfiguration.class)
+@Import(TestContainerConfiguration.class)
 public class AbstractIntegrationTest {
 
     @Autowired
