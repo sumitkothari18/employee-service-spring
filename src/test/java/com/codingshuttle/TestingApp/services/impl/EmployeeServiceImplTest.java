@@ -29,7 +29,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-@Import(TestContainerConfiguration.class)
+//@Import(TestContainerConfiguration.class)
 @ExtendWith(MockitoExtension.class)
 class EmployeeServiceImplTest {
 
